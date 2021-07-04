@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:root_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:id="$+id:third_text"
+        ohos:height="35vp"
+        ohos:width="match_content"
+        ohos:above="$+id:backBtn"
+        ohos:bottom_margin="50vp"
+        ohos:horizontal_center="$+id:root_layout"
+        ohos:multiple_lines="true"
+        ohos:text="用于接受 Main Ability参数的 Text"
+        ohos:text_size="15fp"/>
+
+    <Button
+        ohos:id="$+id:backBtn"
+        ohos:height="35vp"
+        ohos:width="200vp"
+        ohos:background_element="$graphic:button_bg"
+        ohos:bottom_margin="50vp"
+        ohos:center_in_parent="true"
+        ohos:multiple_lines="true"
+        ohos:text="返回MainAbility"
+        ohos:text_size="12fp"/>
+</DependentLayout>

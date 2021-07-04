@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                 ohos:id="$+id:root_layout"
+                 ohos:width="match_parent"
+                 ohos:height="match_parent">
+
+    <Text
+        ohos:id="$+id:main_text"
+        ohos:width="match_content"
+        ohos:height="35vp"
+        ohos:multiple_lines="true"
+        ohos:text_size="15fp"
+        ohos:text="用于接受返回数据的文本"
+        ohos:above="$+id:btn2"
+        ohos:bottom_margin="50vp"
+        ohos:horizontal_center="$+id:root_layout"/>
+
+    <Button
+        ohos:id="$+id:btn2"
+        ohos:width="200vp"
+        ohos:height="35vp"
+        ohos:text="跳转到Second Ability"
+        ohos:multiple_lines="true"
+        ohos:text_size="12fp"
+        ohos:center_in_parent="true"
+        ohos:background_element="$graphic:button_bg"/>
+
+    <Button
+        ohos:id="$+id:btn3"
+        ohos:width="200vp"
+        ohos:height="35vp"
+        ohos:text="跳转到Third Ability"
+        ohos:multiple_lines="true"
+        ohos:top_margin="20vp"
+        ohos:text_size="12fp"
+        ohos:below="$+id:btn2"
+        ohos:bottom_margin="100vp"
+        ohos:horizontal_center="$+id:root_layout"
+        ohos:background_element="$graphic:button_bg"/>
+</DependentLayout>

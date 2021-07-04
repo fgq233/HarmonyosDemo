@@ -1,0 +1,77 @@
+{
+  "app": {
+    "bundleName": "com.example.abilityintent",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.abilityintent",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.abilityintent.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": true
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.abilityintent.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [],
+        "orientation": "portrait",
+        "visible": true,
+        "formsEnabled": false,
+        "permissions": [],
+        "name": ".SecondAbility",
+        "description": "$string:mainability_description",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "entities": [
+              "com.demo.ENTITY3"
+            ],
+            "actions": [
+              "com.demo.thrid.ACTION3"
+            ]
+          }
+        ],
+        "orientation": "portrait",
+        "visible": true,
+        "formsEnabled": false,
+        "permissions": [],
+        "name": ".ThirdAbility",
+        "description": "$string:mainability_description",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
