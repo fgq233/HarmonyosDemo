@@ -1,0 +1,4 @@
+interface ohos.samples.serviceability.IRemoteAgent {
+
+    void setRemoteObject([in] String param);
+}
