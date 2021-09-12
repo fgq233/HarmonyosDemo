@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="title">
+        <text class="name">瑞信下午茶</text>
+    </div>
+    <div>
+        <swiper id="swiperImage" class="swiper-style" on:change="chanfgeSwiper">
+            <image src="{{$item}}" class="image-mode" focusable="true" for="{{imageList}}"></image>
+        </swiper>
+        <div class="container">
+            <div class="description-first-paragraph">
+                <text class="description">{{description}}</text>
+            </div>
+        </div>
+    </div>
+</div>
